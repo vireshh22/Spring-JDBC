@@ -17,5 +17,4 @@ public class RowMapperImpl implements RowMapper<Employee>{
 		emp.setE_contact(rs.getString(3));
 		return emp;
 	}
-
 }
